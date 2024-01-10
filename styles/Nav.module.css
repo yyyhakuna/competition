@@ -3,11 +3,17 @@
     justify-content: space-between;
     padding: 10px 20px;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
  }
 
  .list{
-    display: flex;
-    
+    display:flex;
+    position: absolute;
+    left: 50%;
+    margin-left: -258.45px;
  }
 
  .tittle{
